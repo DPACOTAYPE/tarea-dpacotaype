@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #eeeeee;
+    position: relative; 
+}
+#navegacion{
+    background-color: #FEFEDC;                                          
+    height: 60px;
+    width: 2400px;
+    padding-top: 15px;
+    /* position: absolute;
+    right: 0px; */
+    transform: translate(1145px,0px);
+}
+#cabecera{
+    height: 200px;
+    width: 2400px;
+    background-color:#FEDCFE ;
+    transform: translate();
+    /* position: absolute;
+    right: 0px; */
+    transform: translate(1145px,0px);
+}
+#principal{
+    background-color: #DCFEFE;
+    height: 600px;
+    width: 1600px;
+    position: absolute; 
+    right: 0px;
+     }
+ #principal>p{
+     padding-left: 400px;
+ }
+ #barra-lateral{
+     height: 600px;
+     width:800px;
+     background-color:#DCDCFE;
+     position: relative;
+     left: 0px;
+     top: 0px;
+     transform: translate(-800px,-18px);
+         
+ }
+ #aside-1{
+    height: 250px;
+    width: 800px;
+    background-color: #FEDCDC;
+    position: relative;
+    left: 0px;
+    transform: translate(-800px,-18px);
+ }
+ #aside-2{
+    height: 250px;
+    width: 800px;
+    background-color: #DCFEDC;
+    position: relative;
+    left:800px;
+    transform: translate(-800px,-268px);
+ }
+ #aside-3{
+    height: 250px;
+    width: 800px;
+    background-color:#DCDCFE;
+    position: relative;
+    left: 800px;
+    transform: translate(0px,-518px);
+    
+ }
+
+ #pie-pagina{
+     height: 150px;
+     background-color:#DCDCDC ;
+     width: 2400px;
+     position: absolute;
+     bottom: 755px;
+     right: 0px;
+ }
